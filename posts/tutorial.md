@@ -112,7 +112,7 @@ setChartData({
 });
 ```
 
-Outside of the `useEffect`, we’ll have to configure our `chartOptions`. This is the value we’ll pass into the `Chart` component. We’re gonna stick with fairly default settings but feel free to check out their [documentation](https://apexcharts.com/docs/series/) to see more options.
+Outside of the `useEffect`, we’ll have to configure our `chartOptions`. Inside of this object, we can use the `chartData` state we just updated in the previous step. `chartData.points` will be used for the series data and `chartData.teams` is needed for the x-axis categories. The remaining options can remain default, but feel free to check out the apexcharts [documentation](https://apexcharts.com/docs/series/) for further customizations.
 
 ```jsx
 const chartOptions = {
@@ -200,7 +200,7 @@ function App() {
 export default App;
 ```
 
-And we're all done!
+And we're all done! Here's what the final product should look like.
 
 ![tutorial image](tutorial_img.png)
 
