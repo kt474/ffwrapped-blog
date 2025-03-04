@@ -200,7 +200,7 @@ function App() {
 export default App;
 ```
 
-And we're all done! Here's what the final product should look like.
+And we're all done! Here's a look at the final product.
 
 ![tutorial image](tutorial_img.png)
 
@@ -208,4 +208,4 @@ All of the source code can be found on [github](https://github.com/kt474/sleeper
 
 ## 4. Next Steps
 
-Now that you know how to retrieve, manipulate, and display data from the Sleeper API, take a look at the other API [endpoints](https://docs.sleeper.com/). Some project ideas include: a draft board with player grades, charts comparing weekly points scored, and tables with all time win/loss records. For inspiration, there are some great examples on [ffwrapped](https://ffwrapped.com).
+Now that you know how to retrieve, manipulate, and display data from the Sleeper API, take a look at the other API [endpoints](https://docs.sleeper.com/). Some project ideas include: a draft board with player grades, charts comparing weekly points scored, and tables with all time win/loss records. For inspiration, there are more examples on [ffwrapped](https://ffwrapped.com).

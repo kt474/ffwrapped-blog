@@ -18,6 +18,9 @@ export default defineConfig({
         ],
       },
     ],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/kt474/ffwrapped-blog" },
+    ],
     docFooter: {
       prev: false,
       next: false,
