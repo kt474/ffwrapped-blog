@@ -1,10 +1,10 @@
 # How to use the Sleeper API
 
-# Introduction
+## Introduction
 
 Last year I built [ffwrapped](https://ffwrapped.com/), an open source website that provides fantasy football league insights and stats. This project was made possible by the free, public [Sleeper API](https://docs.sleeper.com/). If you're curious about accessing detailed information about your leagues, the Sleeper API offers comprehensive data—all without any authentication. After working with this API for over a year and building a full-fledged app, I want to share how anyone can create their own project. For this tutorial, we’re going to make a simple bar chart that shows the total points scored from each league member.
 
-# 1. Setup Your Project
+## 1. Setup Your Project
 
 The best way to demonstrate how to retrieve and visualize API data is to create our own project. The Sleeper API provides access to league data, transactions, rosters, matchups, player points, draft data, and much more. To get started, I recommend using [Vite](https://vite.dev/), a popular build tool. For more detailed instructions, take a look at their getting started [guide](https://vite.dev/guide/). I'll show you how to scaffold a simple project.
 
@@ -26,11 +26,11 @@ npm install apexcharts react-apexcharts
 
 For ffwrapped, I used Vue and TypeScript, but any frontend framework will work. For this tutorial, I'll use React because it's the most popular framework and most developers are already familiar with it.
 
-# 2. Find Your League ID
+## 2. Find Your League ID
 
 Your Sleeper league ID is in the URL when viewing your league - [https://sleeper.app/leagues/<your_league_id>](https://sleeper.app/leagues/<your_league_id>).
 
-# 3. Create Your Visualization Component
+## 3. Create Your Visualization Component
 
 Create a file called `PointsGraph.jsx` in the `src` folder.
 
@@ -169,7 +169,7 @@ return (
 export default PointsGraph;
 ```
 
-# 4. Update App Component
+## 4. Update App Component
 
 The last step is to import the `PointsGraph` component we just made in the `App.jsx` file. Make sure to update the `LEAGUE_ID` value.
 
