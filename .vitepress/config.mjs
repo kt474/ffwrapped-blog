@@ -1,28 +1,24 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ffwrapped blog",
-  description: "A VitePress Site",
+  description: "A fantasy football blog",
+  head: [["link", { rel: "icon", href: "/favicon.webp" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+        items: [{ text: "Home", link: "/index" }],
+      },
+      {
+        text: "Posts",
+        items: [{ text: "Sleeper API Visualization", link: "/posts/tutorial" }],
+      },
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+    docFooter: {
+      prev: false,
+      next: false,
+    },
+  },
+});
