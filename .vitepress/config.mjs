@@ -13,7 +13,9 @@ export default defineConfig({
       },
       {
         text: "Posts",
-        items: [{ text: "Sleeper API Visualization", link: "/posts/tutorial" }],
+        items: [
+          { text: "How to use the Sleeper API", link: "/posts/tutorial" },
+        ],
       },
     ],
     docFooter: {

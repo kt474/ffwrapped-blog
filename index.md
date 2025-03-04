@@ -4,4 +4,4 @@ A simple blog for thoughts on a mixture of fantasy football, coding, and data sc
 
 ## Blog Posts
 
-[Sleeper API Tutorial](/posts/tutorial)
+[How to use the Sleeper API](/posts/tutorial)
