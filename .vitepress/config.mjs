@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "ffwrapped",
   description: "A fantasy football blog",
-  head: [["link", { rel: "icon", href: "/favicon.webp" }]],
+
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -26,6 +26,7 @@ export default defineConfig({
     logo: "/logo.png",
   },
   head: [
+    ["link", { rel: "icon", href: "/favicon.webp" }],
     [
       "meta",
       {
