@@ -23,6 +23,6 @@ export default defineConfig({
       prev: false,
       next: false,
     },
-    logo: "/public/football-helmet.png",
+    logo: "/football-helmet.png",
   },
 });
