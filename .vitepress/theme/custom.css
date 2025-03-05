@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(https://fonts.gstatic.com/s/josefinsans/v32/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXbMZhLybpUVzEEQ.woff2)
+    format("woff2");
+  font-weight: 600;
+}
+
+/* Target the site title specifically */
+.VPNavBarTitle .title {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  /* Don't hide the entire title element */
+  position: relative;
+}
+
+.VPNavBarTitle .title span {
+  margin-top: 0.45rem;
+}
+
+/* Style for the title text only - not the logo */
+.VPNavBarTitle .title span {
+  position: relative;
+  visibility: hidden;
+}
+
+/* Add the colored "ff" part */
+.VPNavBarTitle .title span::before {
+  content: "ff";
+  color: #1c64f2; /* Change to your preferred blue */
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Add the rest of the title */
+.VPNavBarTitle .title span::after {
+  content: "wrapped blog";
+  visibility: visible;
+  position: absolute;
+  left: calc(1.1rem); /* Adjust based on your font size */
+  top: 0;
+  color: var(--vp-c-text-1); /* Use theme's text color */
+}

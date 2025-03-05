@@ -5,12 +5,10 @@ export default defineConfig({
   title: "ffwrapped blog",
   description: "A fantasy football blog",
   head: [["link", { rel: "icon", href: "/favicon.webp" }]],
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     sidebar: [
-      {
-        items: [{ text: "Home", link: "/index" }],
-      },
       {
         text: "Posts",
         items: [
@@ -25,5 +23,6 @@ export default defineConfig({
       prev: false,
       next: false,
     },
+    logo: "/public/football-helmet.png",
   },
 });
