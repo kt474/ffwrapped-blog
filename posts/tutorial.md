@@ -1,3 +1,12 @@
+---
+title: "How to use the Sleeper API"
+description: "Code your own visualization with data from Sleeper"
+head:
+  - - meta
+    - name: keywords
+      content: ffwrapped, fantasy, football, sleeper, api, tutorial, guide
+---
+
 # How to use the Sleeper API
 
 ## Introduction

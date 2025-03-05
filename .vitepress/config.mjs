@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "ffwrapped blog",
+  title: "ffwrapped",
   description: "A fantasy football blog",
   head: [["link", { rel: "icon", href: "/favicon.webp" }]],
   cleanUrls: true,
@@ -23,6 +23,28 @@ export default defineConfig({
       prev: false,
       next: false,
     },
-    logo: "/football-helmet.png",
+    logo: "/logo.png",
   },
+  head: [
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "ffwrapped, fantasy, football, blog, stats, analysis, sleeper, api",
+      },
+    ],
+    ["meta", { name: "author", content: "Kevin Tian" }],
+
+    ["meta", { property: "og:title", content: "ffwrapped blog" }],
+    [
+      "meta",
+      { property: "og:description", content: "A fantasy football blog" },
+    ],
+    ["meta", { property: "og:url", content: "https://blog.ffwrapped.com" }],
+    [
+      "meta",
+      { property: "og:image", content: "https://blog.ffwrapped.com/logo.png" },
+    ],
+  ],
 });
