@@ -42,9 +42,9 @@ Create a file called `PointsGraph.jsx` in the `src` folder.
 
 To start, we need to import the `useState` and `useEffect` hooks from react and then for the bar graph, we’re going to use the [apexcharts](https://www.apexcharts.com/docs/installation/) library. The `PointsGraph` component accepts `leagueId` as props which we'll pass in when we update `App.jsx`. We'll also setup three `useState` values to handle the data, loading state, and error state.
 
-- chartData: Stores the formatted data for the chart. Initially set to null, and updated with the team names and points after fetching the API data.
-- isLoading: Tracks whether the API request is still in progress. Starts as true, and switches to false when the data finishes loading or an error occurs.
-- error: Holds any error message in case the API request fails. If there’s no error, this stays null.
+- `chartData`: Stores the formatted data for the chart. Initially set to null, and updated with the team names and points after fetching the API data.
+- `isLoading`: Tracks whether the API request is still in progress. Starts as true, and switches to false when the data finishes loading or an error occurs.
+- `error`: Holds any error message in case the API request fails. If there’s no error, this stays null.
 
 ```jsx
 import { useState, useEffect } from "react";
