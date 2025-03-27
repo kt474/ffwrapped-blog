@@ -1,10 +1,10 @@
 <template>
-  <apexchart
+  <ClientApexChart
     type="bar"
     height="350"
     :options="topPlayersOptions"
     :series="topPlayersSeries"
-  ></apexchart>
+  ></ClientApexChart>
 </template>
 
 <script setup>
