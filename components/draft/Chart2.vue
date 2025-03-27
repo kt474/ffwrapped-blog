@@ -4,7 +4,7 @@
       <ApexChart
         type="bar"
         height="350"
-        :options="topPlayersOptions"
+        :options="chartOptions"
         :series="topPlayersSeries"
       ></ApexChart>
     </div>
@@ -12,7 +12,11 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from "vue";
+import { ref, onMounted, computed, shallowRef } from "vue";
+import { useData } from "vitepress";
+
+// Get the dark mode state from VitePress
+const { isDark } = useData();
 
 const topPlayersSeries = ref([
   {
@@ -21,7 +25,8 @@ const topPlayersSeries = ref([
   },
 ]);
 
-const topPlayersOptions = reactive({
+// Base chart options that don't change with theme
+const baseOptions = {
   chart: {
     type: "bar",
     height: 350,
@@ -61,9 +66,31 @@ const topPlayersOptions = reactive({
       },
     },
   },
+};
+
+// Computed chart options that adjust based on dark mode
+const chartOptions = computed(() => {
+  return {
+    ...baseOptions,
+    chart: {
+      ...baseOptions.chart,
+      foreColor: isDark.value ? "#f8f9fa" : "#373d3f", // Light text for dark mode, dark text for light mode
+      background: "transparent", // Transparent background to match theme
+    },
+    theme: {
+      mode: isDark.value ? "dark" : "light",
+    },
+    tooltip: {
+      ...baseOptions.tooltip,
+      theme: isDark.value ? "dark" : "light",
+    },
+    grid: {
+      borderColor: isDark.value ? "#444444" : "#e0e0e0",
+    },
+  };
 });
 
-const ApexChart = ref(null);
+const ApexChart = shallowRef(null);
 
 onMounted(async () => {
   const module = await import("vue3-apexcharts");
