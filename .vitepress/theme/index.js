@@ -3,6 +3,7 @@ import DefaultTheme from "vitepress/theme";
 import { inject } from "@vercel/analytics";
 import { defineAsyncComponent } from "vue";
 import VueApexCharts from "vue3-apexcharts";
+import ClientOnly from "../../components/ClientOnly.vue";
 
 import "./custom.css";
 
@@ -14,7 +15,7 @@ export default {
       inject();
     }
     app.use(VueApexCharts);
-    // Client-side only
+    app.component("ClientOnly", ClientOnly);
     app.component(
       "Chart1",
       defineAsyncComponent(() => import("../../components/draft/Chart1.vue"))
