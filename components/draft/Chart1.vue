@@ -1,10 +1,10 @@
 <template>
-  <ClientApexChart
+  <apexchart
     type="bar"
     height="350"
     :options="draftPositionOptions"
     :series="draftPositionSeries"
-  ></ClientApexChart>
+  ></apexchart>
 </template>
 
 <script setup>
