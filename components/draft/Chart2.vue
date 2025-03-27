@@ -1,14 +1,18 @@
 <template>
-  <apexchart
-    type="bar"
-    height="350"
-    :options="topPlayersOptions"
-    :series="topPlayersSeries"
-  ></apexchart>
+  <ClientOnly>
+    <div v-if="ApexChart">
+      <ApexChart
+        type="bar"
+        height="350"
+        :options="topPlayersOptions"
+        :series="topPlayersSeries"
+      ></ApexChart>
+    </div>
+  </ClientOnly>
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, reactive, onMounted } from "vue";
 
 const topPlayersSeries = ref([
   {
@@ -57,5 +61,12 @@ const topPlayersOptions = reactive({
       },
     },
   },
+});
+
+const ApexChart = ref(null);
+
+onMounted(async () => {
+  const module = await import("vue3-apexcharts");
+  ApexChart.value = module.default;
 });
 </script>

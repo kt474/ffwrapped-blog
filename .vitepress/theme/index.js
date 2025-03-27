@@ -2,7 +2,6 @@
 import DefaultTheme from "vitepress/theme";
 import { inject } from "@vercel/analytics";
 import { defineAsyncComponent } from "vue";
-import VueApexCharts from "vue3-apexcharts";
 
 import "./custom.css";
 
@@ -13,7 +12,6 @@ export default {
       // Inject Vercel Analytics
       inject();
     }
-    app.use(VueApexCharts);
     app.component(
       "Chart1",
       defineAsyncComponent(() => import("../../components/draft/Chart1.vue"))

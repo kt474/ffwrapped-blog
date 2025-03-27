@@ -1,14 +1,18 @@
 <template>
-  <apexchart
-    type="pie"
-    height="350"
-    :options="playerTypesOptions"
-    :series="playerTypesSeries"
-  ></apexchart>
+  <ClientOnly>
+    <div v-if="ApexChart">
+      <ApexChart
+        type="pie"
+        height="350"
+        :options="playerTypesOptions"
+        :series="playerTypesSeries"
+      ></ApexChart>
+    </div>
+  </ClientOnly>
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, reactive, onMounted } from "vue";
 
 // Player Types Pie Chart
 const playerTypesSeries = ref([306, 231, 39, 3]);
@@ -55,6 +59,10 @@ const playerTypesOptions = reactive({
     },
   ],
 });
-</script>
+const ApexChart = ref(null);
 
-<style scoped></style>
+onMounted(async () => {
+  const module = await import("vue3-apexcharts");
+  ApexChart.value = module.default;
+});
+</script>

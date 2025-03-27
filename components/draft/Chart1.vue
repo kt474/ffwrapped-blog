@@ -1,16 +1,19 @@
 <template>
-  <apexchart
-    type="bar"
-    height="350"
-    :options="draftPositionOptions"
-    :series="draftPositionSeries"
-  ></apexchart>
+  <ClientOnly>
+    <div v-if="ApexChart">
+      <ApexChart
+        type="bar"
+        height="350"
+        :options="draftPositionOptions"
+        :series="draftPositionSeries"
+      />
+    </div>
+  </ClientOnly>
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, reactive, onMounted } from "vue";
 
-// Chart data and options using reactive
 const draftPositionSeries = ref([
   {
     name: "Winners",
@@ -49,12 +52,9 @@ const draftPositionOptions = reactive({
     "#2b7fff",
     "#2b7fff",
   ],
-
   dataLabels: {
     enabled: false,
-    formatter: function (val) {
-      return val;
-    },
+    formatter: (val) => val,
   },
   legend: {
     show: false,
@@ -72,7 +72,7 @@ const draftPositionOptions = reactive({
   },
   tooltip: {
     y: {
-      formatter: function (val, { seriesIndex, dataPointIndex }) {
+      formatter: (val, { dataPointIndex }) => {
         const percentages = [
           4.48, 5.34, 5.86, 8.28, 7.07, 10.86, 7.76, 10.17, 7.93, 11.21, 11.9,
           9.14,
@@ -81,5 +81,12 @@ const draftPositionOptions = reactive({
       },
     },
   },
+});
+
+const ApexChart = ref(null);
+
+onMounted(async () => {
+  const module = await import("vue3-apexcharts");
+  ApexChart.value = module.default;
 });
 </script>
