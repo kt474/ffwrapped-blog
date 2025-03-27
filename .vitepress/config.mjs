@@ -9,6 +9,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     sidebar: [
+      { text: "Home", link: "/" },
       {
         text: "Posts",
         items: [
