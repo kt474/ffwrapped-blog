@@ -9,6 +9,10 @@ import "./custom.css";
 export default {
   extends: DefaultTheme,
   enhanceApp({ app, router }) {
+    if (typeof window !== "undefined") {
+      // Inject Vercel Analytics
+      inject();
+    }
     app.use(VueApexCharts);
     // Client-side only
     app.component(
@@ -23,9 +27,5 @@ export default {
       "Chart3",
       defineAsyncComponent(() => import("../../components/draft/Chart3.vue"))
     );
-    if (typeof window !== "undefined") {
-      // Inject Vercel Analytics
-      inject();
-    }
   },
 };
