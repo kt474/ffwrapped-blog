@@ -12,6 +12,7 @@ export default defineConfig({
       {
         text: "Posts",
         items: [
+          { text: "Does draft pick really matter?", link: "/posts/draft" },
           { text: "How to use the Sleeper API", link: "/posts/tutorial" },
         ],
       },

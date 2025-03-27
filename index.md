@@ -4,4 +4,6 @@ This is a simple space for thoughts on a combination of fantasy football, progra
 
 ## Blog Posts
 
+[Does draft pick really matter?](/posts/draft)
+
 [How to use the Sleeper API](/posts/tutorial)

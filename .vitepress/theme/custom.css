@@ -5,6 +5,19 @@
   font-weight: 600;
 }
 
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+  color: #6a7282;
+  font-weight: 500;
+}
+
+.author {
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
 /* Target the site title specifically */
 .VPNavBarTitle .title {
   font-family: "Josefin Sans", sans-serif;

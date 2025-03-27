@@ -1,6 +1,6 @@
 ---
 title: "How to use the Sleeper API"
-subtitle: "Visualise your fantasy football season"
+subtitle: "Visually analyze your fantasy football season"
 description: "Code your own visualization with data from Sleeper"
 head:
   - - meta
@@ -10,7 +10,9 @@ head:
 
 # How to use the Sleeper API
 
-_Written by Kevin Tian_
+<div class="subtitle">A tutorial on how to visualize your fantasy football season</div>
+
+<div class="author">Written by Kevin Tian</div>
 
 ## Introduction
 
