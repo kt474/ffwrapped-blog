@@ -52,7 +52,7 @@ When sorting by position, we can see that most managers made the obvious choice 
 
 Other than Lamar Jackson, Josh Allen, and Joe Burrow who finished as quarterbacks 1 through 3, it's pretty easy to say that the rest of these quarterbacks were not exactly league winners. Managers who did not get one of these top 3 quarterbacks were likely saved by drafting Baker Mayfield (QB #4) or Jayden Daniels (QB #5) with a later pick.
 
-Lastly, there were 3 league winners bold enough to draft Mark Andrews with their first round pick. Considering Andrews was only the TE #5, winning a league with him as your first pick is incredibly impressive. Looking forward to 2025, Brock Bowers may be the only TE worthy of a first round selection.
+Lastly, there were 3 league winners bold enough to draft Mark Andrews with their first round pick. These leagues may have had different scoring settings but considering Andrews was only the TE #5, winning a league with him as your first pick is still impressive. Looking forward to 2025, Brock Bowers may be the only TE worthy of a first round selection.
 
 ## Conclusion
 
