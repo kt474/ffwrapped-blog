@@ -10,7 +10,7 @@ head:
 
 # How to use the Sleeper API
 
-<div class="subtitle">A tutorial on how to visualize your fantasy football season</div>
+<div class="subtitle">A tutorial for visualizing your fantasy football season</div>
 
 <div class="author">Written by Kevin Tian</div>
 
