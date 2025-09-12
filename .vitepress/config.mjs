@@ -3,7 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ffwrapped",
-  description: "A fantasy football blog",
+  description:
+    "A blog for my thoughts on a combination of fantasy football, programming, and data science",
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
@@ -42,7 +43,11 @@ export default defineConfig({
     ["meta", { property: "og:title", content: "ffwrapped blog" }],
     [
       "meta",
-      { property: "og:description", content: "A fantasy football blog" },
+      {
+        property: "og:description",
+        content:
+          "A blog for my thoughts on a combination of fantasy football, programming, and data science",
+      },
     ],
     ["meta", { property: "og:url", content: "https://blog.ffwrapped.com" }],
     [
