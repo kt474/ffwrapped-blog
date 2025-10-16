@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "ffwrapped",
+  title: "Fantasy Football Wrapped Blog",
   description:
     "A blog for my thoughts on a combination of fantasy football, programming, and data science",
   lastUpdated: true,
@@ -40,7 +40,10 @@ export default defineConfig({
     ],
     ["meta", { name: "author", content: "Kevin Tian" }],
 
-    ["meta", { property: "og:title", content: "ffwrapped blog" }],
+    [
+      "meta",
+      { property: "og:title", content: "Fantasy Football Wrapped Blog" },
+    ],
     [
       "meta",
       {
