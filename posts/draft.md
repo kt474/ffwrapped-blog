@@ -2,10 +2,23 @@
 title: "Does draft pick really matter?"
 subtitle: "An analysis of 2024 fantasy football league winners"
 description: "An analysis of 2024 fantasy football league winner draft picks"
+author: "Kevin Tian"
+date: "2025-03-26"
+lastmod: "2025-04-07"
+image: "/logo.png"
+tags:
+  - fantasy football
+  - draft strategy
+  - league analysis
+  - sleeper
+  - data science
 head:
   - - meta
-    - name: keywords
-      content: ffwrapped, fantasy, football, sleeper, draft, pick
+    - property: og:image:alt
+      content: Fantasy Football Wrapped Blog logo
+  - - meta
+    - name: twitter:image:alt
+      content: Fantasy Football Wrapped Blog logo
 ---
 
 # Does draft pick really matter?
@@ -57,3 +70,5 @@ Lastly, there were 3 league winners bold enough to draft Mark Andrews with their
 ## Conclusion
 
 The 2024 fantasy football season reinforced that draft position alone doesn't determine championship outcomes. Late-round drafters had an advantage, but identifying value players like Ja'Marr Chase or taking calculated risks on elite QBs like Lamar Jackson could overcome draft position disadvantages. As we prepare for 2025, remember that adaptability throughout the season ultimately matters more than where you picked in the draft. The best managers found ways to win despite injuries to players like McCaffrey or underperformance from early-round players like Tyreek Hill.
+
+For a more technical walkthrough of fantasy football data, read [How to use the Sleeper API](/posts/tutorial).

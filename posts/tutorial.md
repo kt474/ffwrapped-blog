@@ -2,10 +2,23 @@
 title: "How to use the Sleeper API"
 subtitle: "Visually analyze your fantasy football season"
 description: "Code your own visualization with data from Sleeper"
+author: "Kevin Tian"
+date: "2025-03-03"
+lastmod: "2025-04-06"
+image: "/posts/tutorial_img.png"
+tags:
+  - fantasy football
+  - sleeper api
+  - data visualization
+  - react
+  - tutorial
 head:
   - - meta
-    - name: keywords
-      content: ffwrapped, fantasy, football, sleeper, api, tutorial, guide
+    - property: og:image:alt
+      content: Sleeper API tutorial chart preview
+  - - meta
+    - name: twitter:image:alt
+      content: Sleeper API tutorial chart preview
 ---
 
 # How to use the Sleeper API
@@ -223,3 +236,5 @@ All of the source code can be found on [github](https://github.com/kt474/sleeper
 ## 4. Next Steps
 
 Now that you know how to retrieve, manipulate, and display data from the Sleeper API, take a look at the other API [endpoints](https://docs.sleeper.com/). Some project ideas include: a draft board with player grades, charts comparing weekly points scored, and tables with all time win/loss records. For inspiration, there are more examples on [ffwrapped](https://ffwrapped.com).
+
+If you want another data-focused article, check out [Does draft pick really matter?](/posts/draft) for a fantasy football analysis built from real league results.
