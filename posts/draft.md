@@ -1,7 +1,7 @@
 ---
 title: "Does draft pick really matter?"
 subtitle: "An analysis of 2024 fantasy football league winners"
-description: "An analysis of 2024 fantasy football league winner draft picks"
+description: "A data-backed fantasy football draft slot analysis using 580 12-team Sleeper leagues from the 2024 season."
 author: "Kevin Tian"
 date: "2025-03-26"
 lastmod: "2025-04-07"
@@ -30,6 +30,8 @@ head:
 ## Introduction
 
 On [ffwrapped](https://ffwrapped.com), almost 3000 unique fantasy football leagues were added for the 2024 season. Among all of these leagues, there were 580 12-team redraft leagues. We're going to take a look at the draft position of the winning league manager in each of these leagues.
+
+If you want to review your own league after reading this analysis, use [ffwrapped fantasy football league insights](https://ffwrapped.com) to generate a recap from your Sleeper league.
 
 ## Winners by Draft Position
 
@@ -69,6 +71,6 @@ Lastly, there were 3 league winners bold enough to draft Mark Andrews with their
 
 ## Conclusion
 
-The 2024 fantasy football season reinforced that draft position alone doesn't determine championship outcomes. Late-round drafters had an advantage, but identifying value players like Ja'Marr Chase or taking calculated risks on elite QBs like Lamar Jackson could overcome draft position disadvantages. As we prepare for 2025, remember that adaptability throughout the season ultimately matters more than where you picked in the draft. The best managers found ways to win despite injuries to players like McCaffrey or underperformance from early-round players like Tyreek Hill.
+The 2024 fantasy football season reinforced that draft position alone doesn't determine championship outcomes. Late-round drafters had an advantage, but identifying value players like Ja'Marr Chase or taking calculated risks on elite QBs like Lamar Jackson could overcome draft position disadvantages. As we prepare for future fantasy football drafts, remember that adaptability throughout the season ultimately matters more than where you picked in the draft. The best managers found ways to win despite injuries to players like McCaffrey or underperformance from early-round players like Tyreek Hill.
 
 For a more technical walkthrough of fantasy football data, read [How to use the Sleeper API](/posts/tutorial).

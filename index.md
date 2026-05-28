@@ -1,6 +1,6 @@
 ---
 title: "Fantasy Football Wrapped Blog"
-description: "Fantasy football, Sleeper API, and data visualization articles from ffwrapped."
+description: "Data-driven fantasy football articles, Sleeper API tutorials, and league analysis from ffwrapped."
 head:
   - - meta
     - property: og:image:alt
@@ -10,16 +10,25 @@ head:
       content: Fantasy Football Wrapped Blog logo
 ---
 
-# Welcome to the ffwrapped blog!
+# ffwrapped Fantasy Football Blog
 
-This is a simple space for thoughts on a combination of fantasy football, programming, and data science. For specific league insights and analysis, check out the main [ffwrapped](https://ffwrapped.com) page.
+Data-backed fantasy football analysis, Sleeper API tutorials, and product notes from [ffwrapped](https://ffwrapped.com), a fantasy football analytics site for league insights and season recaps.
 
-## Blog Posts
+Use these articles to understand the data behind fantasy football outcomes, build your own league visualizations, and get more context for the tools on the main ffwrapped site.
 
-[Does draft pick really matter?](/posts/draft)
+## Latest Fantasy Football Articles
+
+### [Does draft pick really matter?](/posts/draft)
 
 A data-driven look at whether later draft slots actually produced more 2024 fantasy football champions, plus which first-round players showed up most often on winning teams.
 
-[How to use the Sleeper API](/posts/tutorial)
+### [How to use the Sleeper API](/posts/tutorial)
 
 A step-by-step tutorial for pulling public Sleeper league data and turning it into a simple chart with modern frontend tooling.
+
+## What This Blog Covers
+
+- Fantasy football draft strategy based on real league results
+- Sleeper API tutorials for developers and fantasy football commissioners
+- Data visualization ideas for analyzing league history, scoring trends, and team performance
+- Explanations that connect directly to [ffwrapped league analytics](https://ffwrapped.com)

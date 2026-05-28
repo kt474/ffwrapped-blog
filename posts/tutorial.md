@@ -1,7 +1,7 @@
 ---
 title: "How to use the Sleeper API"
 subtitle: "Visually analyze your fantasy football season"
-description: "Code your own visualization with data from Sleeper"
+description: "Learn how to use the Sleeper API with React to fetch fantasy football league data and build a points visualization."
 author: "Kevin Tian"
 date: "2025-03-03"
 lastmod: "2025-04-06"
@@ -29,7 +29,7 @@ head:
 
 ## Introduction
 
-Last year I built [ffwrapped](https://ffwrapped.com/), an open source website that provides fantasy football league insights and analysis. This project was made possible by the free, public [Sleeper API](https://docs.sleeper.com/). If you're curious about accessing detailed information about your leagues, the Sleeper API offers comprehensive data - all without any authentication required. After working with this API for over a year and building a full-fledged app, I want to share how anyone can create their own project. For this tutorial, we’re going to make a simple bar chart that shows the total points scored by each league member.
+Last year I built [ffwrapped fantasy football analytics](https://ffwrapped.com/), an open source website that provides league insights and analysis. This project was made possible by the free, public [Sleeper API](https://docs.sleeper.com/). If you're curious about accessing detailed information about your leagues, the Sleeper API offers comprehensive data - all without any authentication required. After working with this API for over a year and building a full-fledged app, I want to share how anyone can create their own project. For this tutorial, we’re going to make a simple bar chart that shows the total points scored by each league member.
 
 ## 1. Setup Your Project
 
@@ -235,6 +235,6 @@ All of the source code can be found on [github](https://github.com/kt474/sleeper
 
 ## 4. Next Steps
 
-Now that you know how to retrieve, manipulate, and display data from the Sleeper API, take a look at the other API [endpoints](https://docs.sleeper.com/). Some project ideas include: a draft board with player grades, charts comparing weekly points scored, and tables with all time win/loss records. For inspiration, there are more examples on [ffwrapped](https://ffwrapped.com).
+Now that you know how to retrieve, manipulate, and display data from the Sleeper API, take a look at the other API [endpoints](https://docs.sleeper.com/). Some project ideas include: a draft board with player grades, charts comparing weekly points scored, and tables with all time win/loss records. For inspiration, there are more examples on [ffwrapped fantasy football league analytics](https://ffwrapped.com).
 
 If you want another data-focused article, check out [Does draft pick really matter?](/posts/draft) for a fantasy football analysis built from real league results.
