@@ -16,6 +16,10 @@ Browse the latest ffwrapped posts on fantasy football analytics, Sleeper API pro
 
 ## Fantasy Football Analysis
 
+### [How to Find the Unluckiest Team in Your Fantasy Football League](/posts/unluckiest-team)
+
+Learn how to use points scored, points against, all-play record, expected wins, and close losses to identify which manager had the worst schedule luck.
+
 ### [Does draft pick really matter?](/posts/draft)
 
 A data-driven look at whether later draft slots actually produced more 2024 fantasy football champions, plus which first-round players showed up most often on winning teams.

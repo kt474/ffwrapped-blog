@@ -15,6 +15,10 @@ const organization = {
 };
 
 const posts = [
+  {
+    text: "The Unluckiest Team in Your Fantasy Football League",
+    link: "/posts/unluckiest-team",
+  },
   { text: "Does draft pick really matter?", link: "/posts/draft" },
   { text: "How to use the Sleeper API", link: "/posts/tutorial" },
 ];
@@ -48,7 +52,9 @@ function buildJsonLd({ url, title, description, image, pageData, pagePath }) {
   const publishedTime = toIsoDate(frontmatter.date);
   const modifiedTime =
     toIsoDate(frontmatter.lastmod) ||
-    (pageData.lastUpdated ? new Date(pageData.lastUpdated).toISOString() : undefined);
+    (pageData.lastUpdated
+      ? new Date(pageData.lastUpdated).toISOString()
+      : undefined);
   const breadcrumbs = {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -172,7 +178,8 @@ export default defineConfig({
         .filter((item) => item.url !== "/README")
         .map((item) => ({
           ...item,
-          changefreq: item.url === "" || item.url === "/" ? "weekly" : "monthly",
+          changefreq:
+            item.url === "" || item.url === "/" ? "weekly" : "monthly",
           priority: item.url === "" || item.url === "/" ? 0.8 : 0.7,
         }));
     },
@@ -204,7 +211,10 @@ export default defineConfig({
     ["link", { rel: "icon", href: "/favicon.webp" }],
     ["meta", { name: "author", content: author }],
     ["meta", { name: "theme-color", content: "#1c64f2" }],
-    ["meta", { name: "robots", content: "index,follow,max-image-preview:large" }],
+    [
+      "meta",
+      { name: "robots", content: "index,follow,max-image-preview:large" },
+    ],
   ],
   transformHead({ pageData, title, description }) {
     const pagePath = getPagePath(pageData.relativePath);
@@ -212,11 +222,14 @@ export default defineConfig({
     const frontmatter = pageData.frontmatter || {};
     const imageUrl = toAbsoluteUrl(frontmatter.image || "/logo.png");
     const pageTitle = frontmatter.title || title || siteName;
-    const pageDescription = description || frontmatter.description || defaultDescription;
+    const pageDescription =
+      description || frontmatter.description || defaultDescription;
     const publishedTime = toIsoDate(frontmatter.date);
     const modifiedTime =
       toIsoDate(frontmatter.lastmod) ||
-      (pageData.lastUpdated ? new Date(pageData.lastUpdated).toISOString() : undefined);
+      (pageData.lastUpdated
+        ? new Date(pageData.lastUpdated).toISOString()
+        : undefined);
     const isArticle = pagePath.startsWith("/posts/") && pagePath !== "/posts/";
     const jsonLd = buildJsonLd({
       url: canonicalUrl,
@@ -231,7 +244,10 @@ export default defineConfig({
       ["link", { rel: "canonical", href: canonicalUrl }],
       ["meta", { property: "og:site_name", content: siteName }],
       ["meta", { property: "og:locale", content: "en_US" }],
-      ["meta", { property: "og:type", content: isArticle ? "article" : "website" }],
+      [
+        "meta",
+        { property: "og:type", content: isArticle ? "article" : "website" },
+      ],
       ["meta", { property: "og:title", content: pageTitle }],
       ["meta", { property: "og:description", content: pageDescription }],
       ["meta", { property: "og:url", content: canonicalUrl }],
@@ -244,15 +260,24 @@ export default defineConfig({
     ];
 
     if (publishedTime) {
-      tags.push(["meta", { property: "article:published_time", content: publishedTime }]);
+      tags.push([
+        "meta",
+        { property: "article:published_time", content: publishedTime },
+      ]);
     }
 
     if (modifiedTime) {
-      tags.push(["meta", { property: "article:modified_time", content: modifiedTime }]);
+      tags.push([
+        "meta",
+        { property: "article:modified_time", content: modifiedTime },
+      ]);
     }
 
     if (frontmatter.tags?.length) {
-      tags.push(["meta", { property: "article:author", content: frontmatter.author || author }]);
+      tags.push([
+        "meta",
+        { property: "article:author", content: frontmatter.author || author },
+      ]);
 
       for (const tag of frontmatter.tags) {
         tags.push(["meta", { property: "article:tag", content: tag }]);
