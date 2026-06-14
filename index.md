@@ -18,6 +18,10 @@ Use these articles to understand the data behind fantasy football outcomes, buil
 
 ## Latest Fantasy Football Articles
 
+### [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft)
+
+A preseason checklist covering league settings, draft slot prep, player tiers, positional runs, and draft-night setup.
+
 ### [The Unluckiest Team in Your Fantasy Football League](/posts/unluckiest-team)
 
 Learn how to use points scored, points against, all-play record, expected wins, and close losses to identify which manager had the worst schedule luck.

@@ -16,6 +16,10 @@ const organization = {
 
 const posts = [
   {
+    text: "How to Prepare for Your Fantasy Football Draft",
+    link: "/posts/draft-prepare",
+  },
+  {
     text: "The Unluckiest Team in Your Fantasy Football League",
     link: "/posts/unluckiest-team",
   },
