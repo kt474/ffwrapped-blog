@@ -16,8 +16,12 @@ const organization = {
 
 const posts = [
   {
+    text: "FAAB vs Rolling Waivers",
+    link: "/posts/faab-vs-rolling-waivers",
+  },
+  {
     text: "How to Prepare for Your Fantasy Football Draft",
-    link: "/posts/draft-prepare",
+    link: "/posts/prepare-for-sleeper-draft",
   },
   {
     text: "The Unluckiest Team in Your Fantasy Football League",

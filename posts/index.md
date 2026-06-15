@@ -16,6 +16,8 @@ Browse the latest ffwrapped posts on fantasy football analytics, Sleeper API pro
 
 ## Fantasy Football Analysis
 
+### [FAAB vs Rolling Waivers](/posts/faab-vs-rolling-waivers)
+
 ### [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft)
 
 A preseason checklist covering league settings, draft slot prep, player tiers, positional runs, and draft-night setup.
