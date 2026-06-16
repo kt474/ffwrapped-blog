@@ -16,6 +16,10 @@ const organization = {
 
 const posts = [
   {
+    text: "Fantasy Football League Rules to Decide Before Draft Day",
+    link: "/posts/league-rules-before-draft",
+  },
+  {
     text: "FAAB vs Rolling Waivers",
     link: "/posts/faab-vs-rolling-waivers",
   },

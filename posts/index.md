@@ -16,6 +16,10 @@ Browse the latest ffwrapped posts on fantasy football analytics, Sleeper API pro
 
 ## Fantasy Football Analysis
 
+### [Fantasy Football League Rules to Decide Before Draft Day](/posts/league-rules-before-draft)
+
+A preseason commissioner checklist
+
 ### [FAAB vs Rolling Waivers](/posts/faab-vs-rolling-waivers)
 
 ### [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft)
