@@ -16,6 +16,10 @@ const organization = {
 
 const posts = [
   {
+    text: "Half-PPR vs Full-PPR",
+    link: "/posts/half-ppr-vs-full-ppr",
+  },
+  {
     text: "Fantasy Football League Rules to Decide Before Draft Day",
     link: "/posts/league-rules-before-draft",
   },

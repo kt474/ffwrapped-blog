@@ -18,6 +18,10 @@ Use these articles to understand the data behind fantasy football outcomes, buil
 
 ## Latest Fantasy Football Articles
 
+### [Half-PPR vs Full-PPR](/posts/half-ppr-vs-full-ppr)
+
+How reception scoring changes player value.
+
 ### [Fantasy Football League Rules to Decide Before Draft Day](/posts/league-rules-before-draft)
 
 A preseason commissioner checklist
