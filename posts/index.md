@@ -34,6 +34,10 @@ League recap ideas, API tutorials, and tools for turning fantasy football data i
 
 ## Fantasy Football Analysis
 
+### [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)
+
+What to include in a weekly league summary, including matchups, top scorers, lucky wins, standings changes, and AI-powered storylines.
+
 ### [Half-PPR vs Full-PPR](/posts/half-ppr-vs-full-ppr)
 
 How reception scoring changes player value.

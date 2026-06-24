@@ -26,6 +26,12 @@ Fantasy football league tools are most useful when they turn platform data into 
 
 This page collects ffwrapped guides for fantasy football league analysis, including Sleeper API projects and recap ideas for Sleeper and ESPN leagues.
 
+## Create a Weekly League Recap
+
+[Fantasy Football Weekly Recap: What to Include in Your League Summary](/posts/fantasy-football-weekly-recap) explains how to turn each week into a useful league summary.
+
+Weekly recaps are most useful when they go beyond scores and identify the storylines people actually care about: top scorers, close losses, lucky wins, standings changes, playoff movement, and manager drama.
+
 ## Build With the Sleeper API
 
 [How to use the Sleeper API](/posts/tutorial) is the technical starting point.
@@ -67,6 +73,7 @@ Use it when you want the story of your league: the lucky and unlucky teams, the 
 
 ## Related Guides
 
+- [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)
 - [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics)
 - [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy)
 - [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings)

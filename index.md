@@ -36,6 +36,10 @@ League recap ideas, API tutorials, and tools for turning fantasy football data i
 
 ## Latest Fantasy Football Articles
 
+### [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)
+
+What to include in a weekly league summary, including matchups, top scorers, lucky wins, standings changes, and AI-powered storylines.
+
 ### [Half-PPR vs Full-PPR](/posts/half-ppr-vs-full-ppr)
 
 How reception scoring changes player value.
@@ -65,6 +69,7 @@ A step-by-step tutorial for pulling public Sleeper league data and turning it in
 ## What This Blog Covers
 
 - Fantasy football draft strategy based on real league results
+- Fantasy football weekly recaps and AI league summaries
 - Fantasy football league settings for commissioners
 - API tutorials for developers and fantasy football commissioners
 - Data visualization ideas for analyzing league history, scoring trends, and team performance

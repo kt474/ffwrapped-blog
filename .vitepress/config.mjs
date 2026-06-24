@@ -16,6 +16,10 @@ const organization = {
 
 const articles = [
   {
+    text: "Fantasy Football Weekly Recap",
+    link: "/posts/fantasy-football-weekly-recap",
+  },
+  {
     text: "Half-PPR vs Full-PPR",
     link: "/posts/half-ppr-vs-full-ppr",
   },
