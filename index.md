@@ -1,6 +1,6 @@
 ---
 title: "Fantasy Football Wrapped Blog"
-description: "Data-driven fantasy football articles, Sleeper API tutorials, and league analysis from ffwrapped."
+description: "Data-driven fantasy football articles, league recap ideas, API tutorials, and fantasy football analysis from ffwrapped."
 head:
   - - meta
     - property: og:image:alt
@@ -12,9 +12,27 @@ head:
 
 # ffwrapped Fantasy Football Blog
 
-Data-backed fantasy football analysis, Sleeper API tutorials, and product notes from [ffwrapped](https://ffwrapped.com), a fantasy football analytics site for league insights and season recaps.
+Data-backed fantasy football analysis, API tutorials, and product notes from [ffwrapped](https://ffwrapped.com), a fantasy football analytics site for Sleeper and ESPN league insights and season recaps.
 
 Use these articles to understand the data behind fantasy football outcomes, build your own league visualizations, and get more context for the tools on the main ffwrapped site.
+
+## Fantasy Football Topic Guides
+
+### [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings)
+
+Commissioner-focused guidance for scoring, waivers, rosters, playoffs, tiebreakers, and preseason rule decisions.
+
+### [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy)
+
+Draft prep, draft slot value, roster construction, and draft-night advice.
+
+### [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics)
+
+How to analyze schedule luck, all-play record, expected wins, draft outcomes, and league storylines.
+
+### [Fantasy Football League Tools and API Guide](/posts/fantasy-football-league-tools)
+
+League recap ideas, API tutorials, and tools for turning fantasy football data into useful analysis.
 
 ## Latest Fantasy Football Articles
 
@@ -47,6 +65,7 @@ A step-by-step tutorial for pulling public Sleeper league data and turning it in
 ## What This Blog Covers
 
 - Fantasy football draft strategy based on real league results
-- Sleeper API tutorials for developers and fantasy football commissioners
+- Fantasy football league settings for commissioners
+- API tutorials for developers and fantasy football commissioners
 - Data visualization ideas for analyzing league history, scoring trends, and team performance
 - Explanations that connect directly to [ffwrapped league analytics](https://ffwrapped.com)

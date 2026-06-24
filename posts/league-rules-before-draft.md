@@ -4,7 +4,7 @@ subtitle: "A commissioner checklist"
 description: "A concise preseason checklist of fantasy football league rules"
 author: "Kevin Tian"
 date: "2026-06-16"
-lastmod: "2026-06-16"
+lastmod: "2026-06-24"
 image: "/logo.png"
 tags:
   - fantasy football
@@ -36,6 +36,8 @@ A trade gets vetoed. Someone asks for a lineup mistake to be fixed. Two teams ti
 The best time to fix that is before draft day. You do not need a 14-page legal document. You just want the boring stuff settled while nobody knows whether a rule helps or hurts their team yet.
 
 These are the fantasy football league rules I would settle before the season starts.
+
+Once the season ends, [ffwrapped](https://ffwrapped.com) is a useful way to check whether those rules produced the season you wanted: competitive standings, fair playoff races, and league storylines people actually remember.
 
 ## Scoring Format
 
@@ -139,7 +141,7 @@ Decide when the commissioner can step in:
 
 You do not need to cover every possible scenario. Just make it clear that commissioner intervention is for obvious problems, not regret.
 
-"I meant to start that player" is usually not an emergency. "Sleeper glitched and duplicated a roster move" might be.
+"I meant to start that player" is usually not an emergency. "The platform glitched and duplicated a roster move" might be.
 
 ## Payouts and Punishments
 
@@ -155,7 +157,7 @@ If your league has a punishment, make sure people actually agree to it. A funny 
 
 Once the rules are decided, put them somewhere easy to find.
 
-Pin them in Sleeper chat. Add them to the league notes. Use a shared doc. It does not matter where, as long as people can find the answer without scrolling through 400 messages from August.
+Pin them in league chat. Add them to the league notes. Use a shared doc. It does not matter where, as long as people can find the answer without scrolling through 400 messages from August.
 
 This also makes life easier for the commissioner. Instead of relitigating every issue, you can point to the rule everyone agreed to when nobody had a record yet.
 
@@ -167,4 +169,4 @@ Before draft day, decide the settings that matter: scoring, rosters, waivers, tr
 
 Once the season starts, the league should be arguing about bad beats, lucky wins, and terrible start-sit decisions. Not whether the rules changed after the fact.
 
-For more preseason prep, read [FAAB vs Rolling Waivers](/posts/faab-vs-rolling-waivers) or [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft). And once the season is over, [ffwrapped](https://ffwrapped.com) can help you look back at how all those settings actually played out.
+For more preseason prep, read the [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings), [FAAB vs Rolling Waivers](/posts/faab-vs-rolling-waivers), or [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft). And once the season is over, [ffwrapped](https://ffwrapped.com) can help you look back at how all those settings actually played out.

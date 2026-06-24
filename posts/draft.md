@@ -4,7 +4,7 @@ subtitle: "An analysis of 2024 fantasy football league winners"
 description: "A data-backed fantasy football draft slot analysis using 580 12-team Sleeper leagues from the 2024 season."
 author: "Kevin Tian"
 date: "2025-03-26"
-lastmod: "2025-04-07"
+lastmod: "2026-06-24"
 image: "/logo.png"
 tags:
   - fantasy football
@@ -31,7 +31,9 @@ head:
 
 On [ffwrapped](https://ffwrapped.com), almost 3000 unique fantasy football leagues were added for the 2024 season. Among all of these leagues, there were 580 12-team redraft leagues. We're going to take a look at the draft position of the winning league manager in each of these leagues.
 
-If you want to review your own league after reading this analysis, use [ffwrapped fantasy football league insights](https://ffwrapped.com) to generate a recap from your Sleeper league.
+If you want to review your own league after reading this analysis, use [ffwrapped fantasy football league insights](https://ffwrapped.com) to generate a recap from your Sleeper or ESPN league.
+
+You can also use the [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy) as a starting point before your next draft, then come back to ffwrapped after the season to see which assumptions held up.
 
 ## Winners by Draft Position
 
@@ -73,4 +75,4 @@ Lastly, there were 3 league winners bold enough to draft Mark Andrews with their
 
 The 2024 fantasy football season reinforced that draft position alone doesn't determine championship outcomes. Late-round drafters had an advantage, but identifying value players like Ja'Marr Chase or taking calculated risks on elite QBs like Lamar Jackson could overcome draft position disadvantages. As we prepare for future fantasy football drafts, remember that adaptability throughout the season ultimately matters more than where you picked in the draft. The best managers found ways to win despite injuries to players like McCaffrey or underperformance from early-round players like Tyreek Hill.
 
-For a more technical walkthrough of fantasy football data, read [How to use the Sleeper API](/posts/tutorial).
+For more fantasy football data ideas, read the [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics). For a more technical walkthrough, read [How to use the Sleeper API](/posts/tutorial).

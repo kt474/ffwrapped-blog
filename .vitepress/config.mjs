@@ -6,7 +6,7 @@ const mainSiteUrl = "https://ffwrapped.com";
 const author = "Kevin Tian";
 const defaultImage = `${siteUrl}/logo.png`;
 const defaultDescription =
-  "Data-driven fantasy football articles, Sleeper API tutorials, and league analysis from ffwrapped.";
+  "Data-driven fantasy football articles, league recap ideas, API tutorials, and fantasy football analysis from ffwrapped.";
 const organization = {
   "@type": "Organization",
   name: "ffwrapped",
@@ -14,7 +14,7 @@ const organization = {
   logo: defaultImage,
 };
 
-const posts = [
+const articles = [
   {
     text: "Half-PPR vs Full-PPR",
     link: "/posts/half-ppr-vs-full-ppr",
@@ -205,13 +205,15 @@ export default defineConfig({
     nav: [
       { text: "Blog", link: "/" },
       { text: "All Posts", link: "/posts/" },
+      { text: "League Settings", link: "/posts/fantasy-football-league-settings" },
+      { text: "League Tools", link: "/posts/fantasy-football-league-tools" },
       { text: "ffwrapped", link: mainSiteUrl },
     ],
     sidebar: [
       { text: "Home", link: "/" },
       {
         text: "Posts",
-        items: [{ text: "All posts", link: "/posts/" }, ...posts],
+        items: [{ text: "All posts", link: "/posts/" }, ...articles],
       },
     ],
     socialLinks: [

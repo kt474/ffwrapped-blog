@@ -4,7 +4,7 @@ subtitle: "Why half-PPR is the best default for most leagues"
 description: "Compare half-PPR and full-PPR fantasy football scoring, how each format changes player value, and which option is better for most leagues."
 author: "Kevin Tian"
 date: "2026-06-22"
-lastmod: "2026-06-22"
+lastmod: "2026-06-24"
 image: "/logo.png"
 tags:
   - fantasy football
@@ -34,6 +34,8 @@ Choosing between half-PPR and full-PPR sounds like a small commissioner decision
 Over a full season, though, that half point adds up. It changes which players are useful, how managers build their rosters, and whether a five-yard catch feels like a decent play or a scoring event.
 
 Both formats work. I have played in and enjoyed both. But if I were setting up a new fantasy football league today, I would choose half-PPR.
+
+After the season, [ffwrapped](https://ffwrapped.com) can help you look back at whether your Sleeper or ESPN league's scoring format rewarded the kinds of teams and players you expected.
 
 ## What Is PPR Scoring?
 
@@ -116,4 +118,4 @@ Half-PPR and full-PPR can both produce a fun fantasy football season. Full-PPR c
 
 That is why half-PPR would be my default. Receptions matter, but yards, touchdowns, and efficiency still have room to breathe.
 
-If you are setting up a league, read [Fantasy Football League Rules to Decide Before Draft Day](/posts/league-rules-before-draft) before locking everything in. Once the season is over, [ffwrapped](https://ffwrapped.com) can help you look back at how your league's scoring and roster decisions shaped the year.
+If you are setting up a league, read the [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings) or [Fantasy Football League Rules to Decide Before Draft Day](/posts/league-rules-before-draft) before locking everything in. Once the season is over, [ffwrapped](https://ffwrapped.com) can help you look back at how your league's scoring and roster decisions shaped the year.

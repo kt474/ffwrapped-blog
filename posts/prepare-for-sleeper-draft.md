@@ -4,7 +4,7 @@ subtitle: "A practical preseason checklist before draft night"
 description: "Get ready for your fantasy football draft with a preseason checklist for league settings, draft order, tiers, roster construction, and draft-day setup."
 author: "Kevin Tian"
 date: "2026-06-13"
-lastmod: "2026-06-14"
+lastmod: "2026-06-24"
 image: "/logo.png"
 tags:
   - fantasy football
@@ -31,7 +31,7 @@ head:
 
 Draft day is one of the best parts of fantasy football. It is also where a lot of managers start making life harder for themselves before Week 1 even kicks off.
 
-Not because they picked one wrong player. That happens to everyone. The real problem is showing up a little too loose: not knowing the scoring settings, missing a positional run, forgetting the draft order, or panic-picking from Sleeper's default rankings with 12 seconds left on the clock.
+Not because they picked one wrong player. That happens to everyone. The real problem is showing up a little too loose: not knowing the scoring settings, missing a positional run, forgetting the draft order, or panic-picking from the platform's default rankings with 12 seconds left on the clock.
 
 You do not need to predict the whole season in August. You just need enough of a plan that you are not drafting like the room is happening to you.
 
@@ -55,6 +55,8 @@ A player who is valuable in one format can be much less exciting in another. Sup
 
 If you skip this step, you might be drafting for a league that does not exist.
 
+Those settings also shape the league recap later. After the season, [ffwrapped](https://ffwrapped.com) can help you see how scoring, roster rules, waivers, and draft decisions showed up in your Sleeper or ESPN league's results.
+
 ## Check Your Draft Slot
 
 Once the draft order is set, mock from your actual pick a few times.
@@ -73,11 +75,11 @@ If five wide receivers are basically the same to you, put them in the same tier.
 
 Tiers help you avoid panic. If there are still several players you like at wide receiver, maybe you can wait and grab a running back. If your last tight end in a tier is about to go, maybe it is time to move.
 
-This is also how you avoid becoming a passenger on the default draft board. Sleeper's rankings are useful, but your league settings and preferences should matter more than the order on the screen.
+This is also how you avoid becoming a passenger on the default draft board. Platform rankings are useful, but your league settings and preferences should matter more than the order on the screen.
 
-## Use Sleeper's Queue
+## Use Your Draft Queue
 
-Sleeper's queue is one of the easiest ways to avoid a bad pick.
+Your draft queue is one of the easiest ways to avoid a bad pick.
 
 Before the draft starts, add players you like at different positions. During the draft, keep updating it as players come off the board. It helps when picks move quickly, when you are drafting from your phone, or when the chat starts distracting everyone.
 
@@ -130,7 +132,7 @@ One of the best parts of fantasy football is looking back later and seeing which
 
 The team that "won the draft" might miss the playoffs. The manager everyone laughed at might have nailed three breakout picks. A bad draft can be saved by waivers. A great draft can be ruined by injuries.
 
-Draft night is only the first chapter. Once the season plays out, [ffwrapped](https://ffwrapped.com) can help you look back at your Sleeper league and see which teams actually got value, which managers overcame bad luck, and which storylines mattered most.
+Draft night is only the first chapter. Once the season plays out, [ffwrapped](https://ffwrapped.com) can help you look back at your Sleeper or ESPN league and see which teams actually got value, which managers overcame bad luck, and which storylines mattered most.
 
 ## Conclusion
 
@@ -140,4 +142,4 @@ Check your settings. Know your format. Mock from your draft slot. Build tiers. U
 
 You will still miss on players. Everyone does. But a little preparation makes it much easier to avoid the preventable mistakes and actually enjoy draft night.
 
-For more preseason reading, check out [Does draft pick really matter?](/posts/draft). If you want to dig into league data yourself, read [How to use the Sleeper API](/posts/tutorial).
+For more preseason reading, check out the [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy) or [Does draft pick really matter?](/posts/draft). If you want to dig into league data yourself, read [How to use the Sleeper API](/posts/tutorial).

@@ -4,7 +4,7 @@ subtitle: "Schedule luck, expected wins, and why standings do not tell the whole
 description: "Learn how to identify the unluckiest team in a fantasy football league using points scored, points against, all-play record, close losses, and expected wins."
 author: "Kevin Tian"
 date: "2026-06-13"
-lastmod: "2026-06-13"
+lastmod: "2026-06-24"
 image: "/logo.png"
 tags:
   - fantasy football
@@ -88,6 +88,8 @@ Here is the kind of comparison that tells a story:
 
 Team C jumps out. A 5-9 record says bad season. A top-five all-play rank and third-place points rank say something else happened.
 
+This is the kind of standings context [ffwrapped](https://ffwrapped.com) is built to surface for Sleeper and ESPN leagues, so you do not have to calculate every luck metric by hand.
+
 ## Estimate Expected Wins
 
 Expected wins take the same idea one step further: how many wins did this team deserve based on weekly scoring strength?
@@ -162,6 +164,6 @@ The best evidence is:
 
 Put those together and you can move the argument from vibes to evidence.
 
-If you want to analyze your own league, visit [ffwrapped](https://ffwrapped.com) to explore your Sleeper league and find the story behind the standings.
+If you want to analyze your own league, visit [ffwrapped](https://ffwrapped.com) to explore your Sleeper or ESPN league and find the story behind the standings.
 
-For more fantasy football data ideas, read [Does draft pick really matter?](/posts/draft) or learn how to pull your own league data in [How to use the Sleeper API](/posts/tutorial).
+For more fantasy football data ideas, read the [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics), [Does draft pick really matter?](/posts/draft), or learn how to pull your own league data in [How to use the Sleeper API](/posts/tutorial).

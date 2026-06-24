@@ -4,7 +4,7 @@ subtitle: "How to choose the right waiver system before the season starts"
 description: "Compare FAAB and rolling waivers for fantasy football leagues, including fairness, strategy, beginner friendliness, and recommended waiver settings."
 author: "Kevin Tian"
 date: "2026-06-15"
-lastmod: "2026-06-15"
+lastmod: "2026-06-24"
 image: "/logo.png"
 tags:
   - fantasy football
@@ -46,6 +46,8 @@ It is simple, which is the main benefit. New managers understand it quickly. Com
 The problem is that rolling waivers can make managers too passive. If someone has the top priority, they may sit on it for weeks waiting for the perfect player. Meanwhile, other managers have very little chance at the best waiver target unless the top priority decides to pass.
 
 That can feel a little strange. The most important pickup of the season might go to the manager who simply happened to be first in line.
+
+If your league argues about waiver luck after the season, [ffwrapped](https://ffwrapped.com) can help you review which managers made the most of their roster moves and which teams were carried by the wire.
 
 ## What Is FAAB?
 
@@ -108,7 +110,7 @@ It is fairer, more strategic, and more fun once everyone understands it. Every m
 
 Rolling waivers are better if your league is casual, beginner-heavy, or allergic to extra settings. They are easy, familiar, and good enough for a lot of leagues.
 
-My recommendation: if your league checks Sleeper regularly and people care about making moves, use FAAB. If half the league only opens the app on Sunday morning, keep rolling waivers and enjoy the peace.
+My recommendation: if your league checks the fantasy app regularly and people care about making moves, use FAAB. If half the league only opens the app on Sunday morning, keep rolling waivers and enjoy the peace.
 
 ## Conclusion
 
@@ -118,6 +120,6 @@ Drafts get most of the attention, but waiver pickups often decide championships.
 
 If you want a more competitive league, use FAAB with a $100 budget and $0 bids. If you want the simplest setup, rolling waivers are fine.
 
-Either way, the waiver wire will shape your season. And once the season is over, [ffwrapped](https://ffwrapped.com) can help you look back at your Sleeper league and see which managers found the most value after draft day.
+Either way, the waiver wire will shape your season. And once the season is over, [ffwrapped](https://ffwrapped.com) can help you look back at your Sleeper or ESPN league and see which managers found the most value after draft day.
 
-For more preseason prep, read [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft).
+For more preseason prep, read the [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings) or [How to Prepare for Your Fantasy Football Draft](/posts/prepare-for-sleeper-draft).
