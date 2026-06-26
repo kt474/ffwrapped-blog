@@ -34,6 +34,10 @@ League recap ideas, API tutorials, and tools for turning fantasy football data i
 
 ## Fantasy Football Analysis
 
+### [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards)
+
+Funny, useful, and slightly painful awards for weekly reports, season recaps, and league chat arguments.
+
 ### [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
 
 How league analyzers go beyond standings with power rankings, playoff odds, weekly recaps, schedule luck, and manager storylines.

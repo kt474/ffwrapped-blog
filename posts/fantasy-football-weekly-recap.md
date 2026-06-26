@@ -91,6 +91,8 @@ This is also why an AI weekly fantasy football summary should not sound generic.
 
 That is the difference between a recap people skim and a recap people send back to the group chat.
 
+League awards are another easy way to make a recap feel specific. For ideas, read [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards).
+
 ## Use ffwrapped to Generate Weekly Recaps
 
 You can write a weekly recap by hand, but it takes time to gather the scores, compare matchups, check the standings, and turn everything into something readable.
@@ -105,4 +107,4 @@ Start with the biggest stories, add a little luck and standings context, and kee
 
 If you want to create a weekly summary without doing all the work yourself, try [ffwrapped](https://ffwrapped.com) for fantasy football league recaps and insights.
 
-For more league analysis ideas, read the [Fantasy Football League Tools and API Guide](/posts/fantasy-football-league-tools) or [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics).
+For more league analysis ideas, read [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards), the [Fantasy Football League Tools and API Guide](/posts/fantasy-football-league-tools), or [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics).

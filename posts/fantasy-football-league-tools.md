@@ -38,6 +38,8 @@ If you are looking for a fantasy football league analyzer, [ffwrapped](https://f
 
 Weekly recaps are most useful when they go beyond scores and identify the storylines people actually care about: top scorers, close losses, lucky wins, standings changes, playoff movement, and manager drama.
 
+[Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards) has award ideas you can use for weekly reports or end-of-season recaps.
+
 ## Build With the Sleeper API
 
 [How to use the Sleeper API](/posts/tutorial) is the technical starting point.
@@ -79,6 +81,7 @@ Use it when you want the story of your league: the lucky and unlucky teams, the 
 
 ## Related Guides
 
+- [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards)
 - [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
 - [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)
 - [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics)

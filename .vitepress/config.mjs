@@ -16,6 +16,10 @@ const organization = {
 
 const articles = [
   {
+    text: "Best Fantasy Football League Awards for Your Recap",
+    link: "/posts/fantasy-football-league-awards",
+  },
+  {
     text: "What Is a Fantasy Football League Analyzer?",
     link: "/posts/fantasy-football-league-analyzer",
   },
