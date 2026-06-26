@@ -37,6 +37,8 @@ That is where luck metrics help. Points scored, points against, all-play record,
 
 If you want to check your own league, [ffwrapped](https://ffwrapped.com) can help turn your league history into fantasy football insights, rankings, and recap storylines.
 
+For a broader overview of those tools, read [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer).
+
 ## What Makes a Fantasy Team Unlucky?
 
 An unlucky fantasy team is not just a bad team with a bad record. The real candidates usually have some mix of:

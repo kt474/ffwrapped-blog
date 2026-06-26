@@ -12,7 +12,7 @@ head:
 
 # ffwrapped Fantasy Football Blog
 
-Data-backed fantasy football analysis, API tutorials, and product notes from [ffwrapped](https://ffwrapped.com), a fantasy football analytics site for Sleeper and ESPN league insights and season recaps.
+Data-backed fantasy football analysis, API tutorials, and product notes from [ffwrapped](https://ffwrapped.com), a fantasy football league analyzer for Sleeper and ESPN league insights and season recaps.
 
 Use these articles to understand the data behind fantasy football outcomes, build your own league visualizations, and get more context for the tools on the main ffwrapped site.
 
@@ -35,6 +35,10 @@ How to analyze schedule luck, all-play record, expected wins, draft outcomes, an
 League recap ideas, API tutorials, and tools for turning fantasy football data into useful analysis.
 
 ## Latest Fantasy Football Articles
+
+### [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
+
+How league analyzers go beyond standings with power rankings, playoff odds, weekly recaps, schedule luck, and manager storylines.
 
 ### [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)
 
@@ -69,6 +73,7 @@ A step-by-step tutorial for pulling public Sleeper league data and turning it in
 ## What This Blog Covers
 
 - Fantasy football draft strategy based on real league results
+- Fantasy football league analyzer tools for Sleeper and ESPN leagues
 - Fantasy football weekly recaps and AI league summaries
 - Fantasy football league settings for commissioners
 - API tutorials for developers and fantasy football commissioners

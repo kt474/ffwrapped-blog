@@ -26,6 +26,12 @@ Fantasy football league tools are most useful when they turn platform data into 
 
 This page collects ffwrapped guides for fantasy football league analysis, including Sleeper API projects and recap ideas for Sleeper and ESPN leagues.
 
+If you are looking for a fantasy football league analyzer, [ffwrapped](https://ffwrapped.com) helps turn Sleeper and ESPN league data into power rankings, weekly recaps, playoff odds, schedule luck, and season storylines.
+
+## Start With League Analysis
+
+[What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer) explains how league analysis tools go beyond standings and turn fantasy football data into useful context.
+
 ## Create a Weekly League Recap
 
 [Fantasy Football Weekly Recap: What to Include in Your League Summary](/posts/fantasy-football-weekly-recap) explains how to turn each week into a useful league summary.
@@ -73,6 +79,7 @@ Use it when you want the story of your league: the lucky and unlucky teams, the 
 
 ## Related Guides
 
+- [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
 - [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)
 - [Fantasy Football League Analytics Guide](/posts/fantasy-football-league-analytics)
 - [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy)

@@ -35,7 +35,7 @@ Who stole a matchup on Monday night? Who scored the second-most points and still
 
 That is where a weekly summary helps. It turns raw fantasy football results into a story your league actually wants to read, argue about, and bring up again two months later.
 
-If you want an easier way to create one, [ffwrapped](https://ffwrapped.com) can generate fantasy football recaps and league insights for supported leagues, including Sleeper and ESPN.
+If you want an easier way to create one, the [ffwrapped fantasy football league analyzer](https://ffwrapped.com) can generate fantasy football recaps and league insights for supported leagues, including Sleeper and ESPN.
 
 ## Start With the Story, Not the Box Score
 

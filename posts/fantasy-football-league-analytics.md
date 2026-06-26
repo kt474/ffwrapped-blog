@@ -26,6 +26,8 @@ Fantasy football standings tell you who won each matchup. They do not always tel
 
 League analytics add context. They help explain why a team won, why a good roster missed the playoffs, and which managers were better or worse than their record.
 
+If you want a tool that does this for your own league, try the [ffwrapped fantasy football league analyzer](https://ffwrapped.com).
+
 ## Start With Schedule Luck
 
 [The Unluckiest Team in Your Fantasy Football League](/posts/unluckiest-team) explains how to look past standings.
@@ -74,6 +76,7 @@ ffwrapped is built for the questions fantasy managers actually ask after the sea
 
 ## Related Guides
 
+- [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
 - [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings)
 - [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy)
 - [FAAB vs Rolling Waivers](/posts/faab-vs-rolling-waivers)

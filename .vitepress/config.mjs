@@ -16,6 +16,10 @@ const organization = {
 
 const articles = [
   {
+    text: "What Is a Fantasy Football League Analyzer?",
+    link: "/posts/fantasy-football-league-analyzer",
+  },
+  {
     text: "Fantasy Football Weekly Recap",
     link: "/posts/fantasy-football-weekly-recap",
   },
