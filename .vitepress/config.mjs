@@ -16,6 +16,10 @@ const organization = {
 
 const articles = [
   {
+    text: "Fantasy Football Playoff Odds",
+    link: "/posts/fantasy-football-playoff-odds",
+  },
+  {
     text: "Best Fantasy Football League Awards for Your Recap",
     link: "/posts/fantasy-football-league-awards",
   },

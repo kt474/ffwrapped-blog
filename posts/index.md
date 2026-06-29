@@ -34,6 +34,10 @@ League recap ideas, API tutorials, and tools for turning fantasy football data i
 
 ## Fantasy Football Analysis
 
+### [Fantasy Football Playoff Odds](/posts/fantasy-football-playoff-odds)
+
+How playoff chances work, why standings can be misleading, and what a playoff odds calculator should consider.
+
 ### [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards)
 
 Funny, useful, and slightly painful awards for weekly reports, season recaps, and league chat arguments.

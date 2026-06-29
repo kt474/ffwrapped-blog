@@ -32,6 +32,10 @@ If you are looking for a fantasy football league analyzer, [ffwrapped](https://f
 
 [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer) explains how league analysis tools go beyond standings and turn fantasy football data into useful context.
 
+## Understand Playoff Odds
+
+[Fantasy Football Playoff Odds](/posts/fantasy-football-playoff-odds) explains why playoff chances can be more useful than standings once the playoff race gets tight.
+
 ## Create a Weekly League Recap
 
 [Fantasy Football Weekly Recap: What to Include in Your League Summary](/posts/fantasy-football-weekly-recap) explains how to turn each week into a useful league summary.
@@ -81,6 +85,7 @@ Use it when you want the story of your league: the lucky and unlucky teams, the 
 
 ## Related Guides
 
+- [Fantasy Football Playoff Odds](/posts/fantasy-football-playoff-odds)
 - [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards)
 - [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
 - [Fantasy Football Weekly Recap](/posts/fantasy-football-weekly-recap)

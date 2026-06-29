@@ -36,6 +36,10 @@ League recap ideas, API tutorials, and tools for turning fantasy football data i
 
 ## Latest Fantasy Football Articles
 
+### [Fantasy Football Playoff Odds](/posts/fantasy-football-playoff-odds)
+
+How playoff chances work, why standings can be misleading, and what a playoff odds calculator should consider.
+
 ### [Best Fantasy Football League Awards for Your Recap](/posts/fantasy-football-league-awards)
 
 Funny, useful, and slightly painful awards for weekly reports, season recaps, and league chat arguments.
@@ -78,6 +82,7 @@ A step-by-step tutorial for pulling public Sleeper league data and turning it in
 
 - Fantasy football draft strategy based on real league results
 - Fantasy football league analyzer tools for Sleeper and ESPN leagues
+- Fantasy football playoff odds and playoff race analysis
 - Fantasy football league awards and recap ideas
 - Fantasy football weekly recaps and AI league summaries
 - Fantasy football league settings for commissioners

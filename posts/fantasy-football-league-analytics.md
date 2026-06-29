@@ -40,8 +40,11 @@ Useful metrics include:
 - Expected wins
 - Close losses
 - Playoff misses despite strong scoring
+- Playoff odds
 
 A manager can make good decisions and still lose because they faced everyone else's best weeks. A different manager can sneak into the playoffs with a soft schedule. Both stories are more interesting than the standings alone.
+
+If your league is still in season, [Fantasy Football Playoff Odds](/posts/fantasy-football-playoff-odds) is a useful next step.
 
 ## Compare Draft Results to League Outcomes
 
@@ -77,6 +80,7 @@ ffwrapped is built for the questions fantasy managers actually ask after the sea
 ## Related Guides
 
 - [What Is a Fantasy Football League Analyzer?](/posts/fantasy-football-league-analyzer)
+- [Fantasy Football Playoff Odds](/posts/fantasy-football-playoff-odds)
 - [Fantasy Football League Settings Guide](/posts/fantasy-football-league-settings)
 - [Fantasy Football Draft Strategy Guide](/posts/fantasy-football-draft-strategy)
 - [FAAB vs Rolling Waivers](/posts/faab-vs-rolling-waivers)
